@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  authors: MyString
+  publish_year: 1
+  comment: MyText
+  checked_out: false
+
+two:
+  title: MyString
+  authors: MyString
+  publish_year: 1
+  comment: MyText
+  checked_out: false
