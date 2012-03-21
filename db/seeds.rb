@@ -1,10 +1,11 @@
-# -*- encoding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 titles = [
           "ほげ",
           "JoJo",
           "onepeace",
-          "foobar"
+          "foobar",
+          "ふがふが"
          ]
 
 comment = "コメント" * 50
