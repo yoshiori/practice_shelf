@@ -5,6 +5,7 @@
     <td><%= link_to book.title,book %></td>
     <td><%= book.authors %></td>
     <td><%= book.publish_year %></td>
+    <td><%= link_to "修正", [ :edit, book ] %></td>
   </tr>
   <% end %>
 </table>
