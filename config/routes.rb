@@ -1,5 +1,9 @@
 Shelf::Application.routes.draw do
-  resources :books
+  root :to => "books#index"
+  resources :books do
+    put :check_out, :on => :member
+  end
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
