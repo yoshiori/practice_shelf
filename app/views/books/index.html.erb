@@ -1,3 +1,7 @@
+<%= form_tag [:search, :books ], :method => :get, :class => "well form-search" do %>
+<%= text_field_tag "query", params[:query], :class => "input-medium search-query" %>
+<%= submit_tag "検索", :class => "btn" %>
+<% end %>
 <table class="table table-striped">
   <% @books.each do |book| %>
   <tr>
@@ -8,4 +12,7 @@
   </tr>
   <% end %>
 </table>
+<div>
+<%= paginate @books %>
+</div>
 <%= link_to "新規登録", [:new, :book], :class => "btn btn-primary" %>

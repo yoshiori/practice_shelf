@@ -3,3 +3,4 @@ http://tatsu-zine.com/books/rails3
 の演習問題。
 
 折角なので twitter-bootstrap-rails も使ってみる
+ページネーションは will_paginate ではなく kaminari で！！
