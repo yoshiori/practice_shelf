@@ -19,7 +19,7 @@ comment = "コメント" * 50
               )
 end
 100.times do |n|
-  Book.create(:title => "タイトル - #{titles[n]}",
+  Book.create(:title => "タイトル - #{n}",
               :authors => "俺",
               :publish_year => 2012,
               :comment => comment,
